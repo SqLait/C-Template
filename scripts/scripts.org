@@ -1,0 +1,4 @@
+#+TITLE: Scripts
+
+Scripts will contain setup files or automatisation scripts required by the project.
+This can also include scripts used for creating (release) builds.
