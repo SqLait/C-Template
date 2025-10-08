@@ -2,6 +2,8 @@
 *.d
 
 # Object files
+*.slo
+*.lo
 *.o
 *.ko
 *.obj
@@ -21,6 +23,9 @@
 *.a
 *.la
 *.lo
+*.lai
+*.def
+*.exp
 
 # Shared objects (inc. Windows DLLs)
 *.dll
@@ -58,3 +63,24 @@ dkms.conf
 /build/*
 !/build/build.org
 *.cache/
+
+# ----------------------------------------------------------------------
+# Python-specific ignores (for tools, environments, packaging, etc.)
+# ----------------------------------------------------------------------
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[codz]
+*$py.class
+
+# ----------------------------------------------------------------------
+# Lua-specific ignores (for embedding, tools, etc.)
+# ----------------------------------------------------------------------
+# Compiled Lua sources
+luac.out
+
+# luarocks build files
+*.src.rock
+*.zip
+*.tar.gz
+
