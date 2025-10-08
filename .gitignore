@@ -65,6 +65,13 @@ dkms.conf
 *.cache/
 
 # ----------------------------------------------------------------------
+# Zephyr RTOS-specific ignores (for tools, environments, packaging, etc.)
+# ----------------------------------------------------------------------
+/bootloader/*
+/modules
+/zephyr
+/tools
+# ----------------------------------------------------------------------
 # Python-specific ignores (for tools, environments, packaging, etc.)
 # ----------------------------------------------------------------------
 
