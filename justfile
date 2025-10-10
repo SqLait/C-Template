@@ -4,7 +4,7 @@ set windows-shell := ["pwsh.exe", "-NoLogo", "-noprofile", "-c"]
 # Initialises CMake and other project specific logic. (Run at the root of the project)
 [group('configure')]
 init:
-    cmake build/..
+    cmake -S . -B build
     cmake --build build
 
 # Build and execute the project.
