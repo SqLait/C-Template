@@ -1,3 +1,0 @@
-#+TITLE: build.org
-
-Inside of the build directory you will build your programs.

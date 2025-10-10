@@ -1,8 +1,0 @@
-#+TITLE: impl.org
-
-Inside of the *impl directory* is where you place the *definitions of your header files*.
-
-* Example
-Inside of *include/util* you have a header file with your definitions for *debug.h*.
-If *debug.h* requires logic inside of functions, create a *debug.c* file inside of the impl directory.
-This way logic and definition get separated and can always be used across different files.

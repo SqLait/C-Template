@@ -63,6 +63,7 @@ dkms.conf
 /build/*
 !/build/build.org
 *.cache/
+CMakeFiles
 
 # ----------------------------------------------------------------------
 # Zephyr RTOS-specific ignores (for tools, environments, packaging, etc.)

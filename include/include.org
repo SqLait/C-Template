@@ -1,5 +1,0 @@
-#+TITLE: Include.org
-
-The *include* directory will contain all your header files. Inside of here there are 2 subdirectories:
-- util :: This will contain your own header files.
-- lib :: This will contain library functions, like sokol_gfx.h
