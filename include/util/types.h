@@ -6,7 +6,9 @@
 #include <limits.h>
 #include <stddef.h>
 
-#define _ 0
+#define nullptr NULL
+#define null NULL
+
 #define ARRLEN(_arr) ((sizeof((_arr))) / ((sizeof((_arr)[0]))))
 #define btos(x) ((x) ? "true" : "false")
 #define container_of(ptr, type, member) \
@@ -93,6 +95,7 @@ typedef mat4s m4;
 typedef mat2s m2;
 
 typedef struct {
-    char *str;
+    char *str; // str does not have a null terminator when created using StrLit. DON'T COMPARE WITH CHAR *
     u32 len;
+    bool is_heap; // Checks if the string is allocated on the heap
 } string;
